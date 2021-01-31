@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './shared/components/navigation/navigation.component';
 import { DashboardComponent } from './core/components/dashboard/dashboard.component';
 import { UserAlertsComponent } from './shared/components/user-alerts/user-alerts.component';
+import { WelcomeBannerComponent } from './core/components/welcome-banner/welcome-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     DashboardComponent,
-    UserAlertsComponent
+    UserAlertsComponent,
+    WelcomeBannerComponent
   ],
   imports: [
     BrowserModule,
