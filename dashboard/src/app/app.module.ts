@@ -7,6 +7,8 @@ import { NavigationComponent } from './shared/components/navigation/navigation.c
 import { DashboardComponent } from './core/components/dashboard/dashboard.component';
 import { UserAlertsComponent } from './shared/components/user-alerts/user-alerts.component';
 import { WelcomeBannerComponent } from './core/components/welcome-banner/welcome-banner.component';
+import { UserResumeComponent } from './core/components/user-resume/user-resume.component';
+import { UserResumeHeaderComponent } from './core/components/user-resume-header/user-resume-header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { WelcomeBannerComponent } from './core/components/welcome-banner/welcome
     NavigationComponent,
     DashboardComponent,
     UserAlertsComponent,
-    WelcomeBannerComponent
+    WelcomeBannerComponent,
+    UserResumeComponent,
+    UserResumeHeaderComponent
   ],
   imports: [
     BrowserModule,
