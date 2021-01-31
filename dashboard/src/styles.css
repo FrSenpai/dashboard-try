@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    height: 100%;
+}
+
+p, li {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
