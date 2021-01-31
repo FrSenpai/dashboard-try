@@ -28,4 +28,6 @@ li {
     align-items: center;
     justify-content: flex-start;
     margin-top: 19px;
+    cursor: pointer;
+    font-size: 18px;
 }

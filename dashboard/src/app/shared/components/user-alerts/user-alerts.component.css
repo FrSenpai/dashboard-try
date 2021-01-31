@@ -1,0 +1,39 @@
+#ctnUserHead {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+#ctnUserLoggedInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 54px;
+}
+
+.notificationsIcons {
+    margin: 5px;
+}
+
+
+#userPicture {
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    margin: 5px;
+    opacity: 50%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 600;
+}
+

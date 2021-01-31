@@ -3,13 +3,14 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
 }
 
 header {
     height: 100%;
 }
 
-p, li {
+p, li, span {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
