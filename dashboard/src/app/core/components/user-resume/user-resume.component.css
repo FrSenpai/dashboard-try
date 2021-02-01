@@ -20,44 +20,6 @@
     border-radius: 10px;
 }
 
-.ctnSection {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.ctnSectionTitle h5 {
-    margin: 0;
-}
-
-.ctnSection p {
-    margin: 0 36px 0 22px;
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 50%;
-}
-
-.ctnSection span {
-    margin: 0 36px 10px 22px;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.ctnSectionTitle h6 {
-    font-size: 20px;
-    margin: 0 0 0 5px;
-}
-
-.ctnSectionTitle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 22px;
-    margin-bottom: 11px;
-    margin-top: 30px;
-    margin: 30px 36px 11px 22px;
-}
 
 h5 {
     font-size: 24px;
@@ -65,19 +27,6 @@ h5 {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
-#ctnPhotos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#ctnEachPhoto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 50px;
-}
 
 #ctnSecondVerticalBox {
     display: flex;

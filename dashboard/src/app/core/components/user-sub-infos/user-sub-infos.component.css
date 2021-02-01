@@ -1,0 +1,11 @@
+.titleSubInfos {
+    margin: 25px 11px 11px 22px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.dataSubInfos {
+    margin: 0;
+    text-align: center;
+}
