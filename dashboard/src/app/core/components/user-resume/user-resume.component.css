@@ -72,7 +72,7 @@ h5 {
         margin-bottom: 50px;
     }
 
-    #ctnSecondVerticalBox app-user-language{
+    #ctnSecondVerticalBox app-user-language,app-user-qualifications,app-user-specialities{
         width: 50%;
     }
 
