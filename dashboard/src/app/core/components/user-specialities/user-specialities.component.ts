@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { User } from 'src/app/user';
 
 @Component({
   selector: 'app-user-specialities',
@@ -6,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./user-specialities.component.css']
 })
 export class UserSpecialitiesComponent implements OnInit {
-  @Input() userInfos:any;
+  @Input() userInfos?:User;
   constructor() { }
 
   ngOnInit(): void {

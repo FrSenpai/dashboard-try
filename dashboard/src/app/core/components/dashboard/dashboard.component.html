@@ -1,4 +1,4 @@
-<div id="ctnBox" *ngIf="userInfos$ | async as userInfo">
+<div id="ctnBox" *ngIf="userInfos | async as userInfo">
     <div id="ctnUserAlertsApp">
         <app-user-alerts [userInfos]="userInfo"></app-user-alerts>
     </div>
