@@ -48,3 +48,32 @@ h5 {
     text-align: center;
 }
 
+
+@media screen and (max-width: 1250px) {
+    #ctnColumn {
+        flex-direction: column;
+    }
+
+    #ctnFirstVerticalBox {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin:auto;
+    }
+
+    #ctnSecondVerticalBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+        background: #daf5f334;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+
+    #ctnSecondVerticalBox app-user-language{
+        width: 50%;
+    }
+
+}

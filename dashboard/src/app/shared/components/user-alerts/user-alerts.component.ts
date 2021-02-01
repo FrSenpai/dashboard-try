@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { RootObject } from 'src/app/core/models/user';
 
 @Component({
   selector: 'app-user-alerts',
@@ -6,12 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./user-alerts.component.css']
 })
 export class UserAlertsComponent implements OnInit {
-  @Input() userInfos: any; 
+  @Input() userInfos?: RootObject; 
   constructor() { 
   }
 
   ngOnInit(): void {
-    console.log(this.userInfos)
   }
 
 }

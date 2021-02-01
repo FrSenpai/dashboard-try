@@ -6,7 +6,7 @@
       <img src="../../../../assets/images/user-resume-icons/edit.png" alt="edit experience">
     </div>
   </div>
-  <div *ngFor="let exp of userInfos.user[0].experience">
+  <div *ngFor="let exp of userInfos?.experience">
     <span> {{exp.company}} <img class="ellipse" src="../../../../assets/images/user-resume-icons/ellipse.png"
         alt="ellipse séparant les textes"> {{exp.year}} years</span>
     <p> {{exp.description}} </p>
