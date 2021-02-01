@@ -37,3 +37,18 @@ span {
     font-weight: 600;
 }
 
+@media screen and (max-width:390px) {
+    #ctnUserHead {
+        margin-top: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-flow: wrap-reverse;
+    }
+    .notificationsIcons {
+        
+        align-items: center;
+    }
+    #ctnUserLoggedInfo {
+        margin: 0;
+    }
+}

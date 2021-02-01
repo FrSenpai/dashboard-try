@@ -48,3 +48,44 @@ h5 {
     text-align: center;
 }
 
+
+@media screen and (max-width: 1250px) {
+    #ctnColumn {
+        flex-direction: column;
+    }
+
+    #ctnFirstVerticalBox {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin:auto;
+    }
+
+    #ctnSecondVerticalBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+        background: #daf5f334;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+
+    #ctnSecondVerticalBox app-user-language,app-user-qualifications,app-user-specialities{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:665px) {
+    #ctnSecondVerticalBox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ctnSecondVerticalBox app-user-language,app-user-qualifications,app-user-specialities{
+        width: 100%;
+    }
+}

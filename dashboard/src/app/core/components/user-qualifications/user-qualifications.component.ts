@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { RootObject } from 'src/app/core/models/user';
 
 @Component({
   selector: 'app-user-qualifications',
@@ -6,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./user-qualifications.component.css']
 })
 export class UserQualificationsComponent implements OnInit {
-  @Input() userInfos:any;
+  @Input() userInfos?:RootObject;
   constructor() { }
 
   ngOnInit(): void {

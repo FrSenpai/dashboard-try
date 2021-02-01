@@ -1,13 +1,14 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { RootObject } from '../models/user';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
 
-  private configUrl: string = "https://run.mocky.io/v3/0eedb9e4-7990-43db-81d3-436058a314df";
+  private configUrl: string = "https://run.mocky.io/v3/e7abc82b-a260-4ce9-be27-974bd2ef6481";
   constructor(private http: HttpClient) {
    }
 

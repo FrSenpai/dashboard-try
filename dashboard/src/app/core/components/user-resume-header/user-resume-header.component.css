@@ -61,3 +61,71 @@ h4 {
     font-weight: 600;
     
 }
+
+@media screen and (max-width: 1250px) {
+    #ctnHeadResume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    #ctnUserTitle {
+        justify-content: center;
+        margin: 0;
+    }
+
+    #ctnUserStats{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #ctnUserTitle {
+        flex-direction: column;
+    }
+
+    h4 {
+        margin: 10px 0px 10px 0px;
+    }
+
+    #userTitle {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .userStats {
+        margin: 0 10px 0px 10px;
+    }
+
+    #ctnHeadResume {
+        width: auto;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #ctnUserStats {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .userStats {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .dataStat{
+        margin: 0 5px 0px 5px;
+    }
+
+    .nameStat {
+        margin: 0 5px 0px 5px;
+    }
+
+
+
+}

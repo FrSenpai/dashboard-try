@@ -38,3 +38,41 @@ button {
     letter-spacing: 0.1px;
     font-style: normal;
 }
+
+@media screen and (max-width:1100px) {
+    #ctnWelcomeText {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ctnBox {
+        justify-content: center;
+        height: 100%;
+        flex-direction: column;
+        flex-flow: wrap-reverse;
+        padding-bottom: 10px;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:390px) {
+    #ctnImgBanner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #ctnImgBanner img {
+        width: 80%;
+        margin: auto;
+    }
+
+    #ctnWelcomeText h3 {
+        width: auto;
+        text-align: center;
+    }
+}

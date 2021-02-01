@@ -1,12 +1,12 @@
 <div class="ctnSection">
-    <h5 class="titleSubInfos">Registered address</h5>
-    <p class="dataSubInfos"> {{ userInfos.user[0].address}}</p>
-  </div>
-  <div class="ctnSection">
-    <h5 class="titleSubInfos">Insurance provider </h5>
-    <p class="dataSubInfos">{{userInfos.user[0].insurance[0].provider}}</p>
-  </div>
-  <div class="ctnSection">
-    <h5 class="titleSubInfos">Insurance policy number</h5>
-    <p class="dataSubInfos">{{userInfos.user[0].insurance[0].policy_number}}</p>
-  </div>
+  <h5 class="titleSubInfos">Registered address</h5>
+  <p class="dataSubInfos"> {{ userInfos?.address}}</p>
+</div>
+<div class="ctnSection">
+  <h5 class="titleSubInfos">Insurance provider </h5>
+  <p class="dataSubInfos">{{userInfos?.insurance_provider}}</p>
+</div>
+<div class="ctnSection">
+  <h5 class="titleSubInfos">Insurance policy number</h5>
+  <p class="dataSubInfos">{{userInfos?.insurance_policy_number}}</p>
+</div>
