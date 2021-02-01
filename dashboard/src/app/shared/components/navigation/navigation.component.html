@@ -1,15 +1,16 @@
-<div id="ctnNav">
+<div (window:resize)="onResize($event)" id="ctnNav">
   <h1>
-    <img *ngIf="" src="../../../../assets/images/logo.png" alt="Dotiv logo">
+    <img *ngIf="checkResolution(); else logo_min" src="../../../../assets/images/logo.png" alt="Dotiv logo">
+    <ng-template #logo_min> <img src="../../../../assets/images/logo_min.png" alt="Dotiv logo"></ng-template>
   </h1>
   <nav>
     <ul>
-      <li><img class="navIcons" src="../../../../assets/images/nav-icons/SquaresFour.png" alt="Dashboard icon"><span id="activeTab">Dashboard</span></li>
-      <li><img class="navIcons" src="../../../../assets/images/nav-icons/CalendarX.png" alt="Dashboard icon">Appointments</li>
-      <li><img class="navIcons" src="../../../../assets/images/nav-icons/CalendarBlank.png" alt="Dashboard icon">Calendar</li>
-      <li><img class="navIcons" src="../../../../assets/images/nav-icons/CreditCard.png" alt="Dashboard icon">Account</li>
-      <li><img class="navIcons" src="../../../../assets/images/nav-icons/Handshake.png" alt="Dashboard icon">Services</li>
-      <li><img class="navIcons" src="../../../../assets/images/nav-icons/Clock.png" alt="Dashboard icon">Availabilities</li>
+      <li><img class="navIcons" src="../../../../assets/images/nav-icons/SquaresFour.png" alt="Dashboard icon"><span>Dashboard</span></li>
+      <li><img class="navIcons" src="../../../../assets/images/nav-icons/CalendarX.png" alt="Dashboard icon"><span>Appointments</span></li>
+      <li><img class="navIcons" src="../../../../assets/images/nav-icons/CalendarBlank.png" alt="Dashboard icon"><span>Calendar</span></li>
+      <li><img class="navIcons" src="../../../../assets/images/nav-icons/CreditCard.png" alt="Dashboard icon"><span>Account</span></li>
+      <li><img class="navIcons" src="../../../../assets/images/nav-icons/Handshake.png" alt="Dashboard icon"><span>Services</span></li>
+      <li><img class="navIcons" src="../../../../assets/images/nav-icons/Clock.png" alt="Dashboard icon"><span>Availabilities</span></li>
     </ul>
   </nav>
 </div>

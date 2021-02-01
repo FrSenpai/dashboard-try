@@ -6,11 +6,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-    console.log(screen.width, screen.height)
+  public screenHeight:number;
+  public screenWidth:number;
+  constructor() { 
+    this.screenHeight = innerHeight;
+    this.screenWidth = innerWidth;
   }
 
+  ngOnInit(): void {
+    console.log(screen.width)
+  }
+
+  public checkResolution():Boolean {
+    if (this.screenWidth > 890) {
+      return true
+    } else {
+      return false;
+    }
+   
+  }
+
+
+  public onResize(event:any):void {
+    console.log(this.screenWidth)
+    if (event.type === "resize") {
+      this.screenWidth = event.target.innerWidth;
+      this.screenHeight = event.target.innerHeight;
+    }
+  }
 }

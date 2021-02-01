@@ -31,3 +31,20 @@ li {
     cursor: pointer;
     font-size: 18px;
 }
+
+@media screen and (max-width: 890px) {
+    nav ul li span {
+        display: none;
+        width: 0px;
+    }
+
+    #ctnNav {
+        width: auto;
+        position: fixed;
+        width: 50px;
+    }
+
+    .navIcons {
+        margin: 0;
+    }
+}
