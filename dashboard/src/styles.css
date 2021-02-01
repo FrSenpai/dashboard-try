@@ -64,3 +64,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
     margin: 30px 36px 11px 22px;
 }
+
+.ctnSection ul li {
+    opacity: 50%;
+    font-size: 18px;
+    font-weight: 400;
+}
