@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-user-language',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-language.component.css']
 })
 export class UserLanguageComponent implements OnInit {
-
+  @Input() userInfos:any;
   constructor() { }
 
   ngOnInit(): void {

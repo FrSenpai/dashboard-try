@@ -1,12 +1,12 @@
 <div class="ctnSection">
     <h5 class="titleSubInfos">Registered address</h5>
-    <p class="dataSubInfos">rue du ciment, Lausanne</p>
+    <p class="dataSubInfos"> {{ userInfos.user[0].address}}</p>
   </div>
   <div class="ctnSection">
     <h5 class="titleSubInfos">Insurance provider </h5>
-    <p class="dataSubInfos">ABC Insurance</p>
+    <p class="dataSubInfos">{{userInfos.user[0].insurance[0].provider}}</p>
   </div>
   <div class="ctnSection">
     <h5 class="titleSubInfos">Insurance policy number</h5>
-    <p class="dataSubInfos">B2C00 67 266700</p>
+    <p class="dataSubInfos">{{userInfos.user[0].insurance[0].policy_number}}</p>
   </div>

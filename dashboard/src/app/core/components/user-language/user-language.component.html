@@ -4,7 +4,6 @@
       <img src="../../../../assets/images/user-resume-icons/edit.png" alt="edit about me">
     </div>
     <ul>
-      <li>English - Native</li>
-      <li>Spanish</li>
+      <li *ngFor="let lang of userInfos.user[0].languages">{{lang.name}}</li>
     </ul>
   </div>

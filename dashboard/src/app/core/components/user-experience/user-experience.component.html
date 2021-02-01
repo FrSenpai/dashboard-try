@@ -1,14 +1,16 @@
 <div class="ctnSection">
-    <div class="ctnSectionTitle">
-      <h5>Experience</h5>
-      <div>
-        <img src="../../../../assets/images/user-resume-icons/add.png" alt="add experience">
-        <img src="../../../../assets/images/user-resume-icons/edit.png" alt="edit experience">
-      </div>
+  <div class="ctnSectionTitle">
+    <h5>Experience</h5>
+    <div>
+      <img src="../../../../assets/images/user-resume-icons/add.png" alt="add experience">
+      <img src="../../../../assets/images/user-resume-icons/edit.png" alt="edit experience">
     </div>
-    <span>Alleviate Yoga Studio <img class="ellipse" src="../../../../assets/images/user-resume-icons/ellipse.png"
-        alt="ellipse séparant les textes"> 2 years</span>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-      industry's standard dummy text ever since the 1500s,...more</p>
-
   </div>
+  <div *ngFor="let exp of userInfos.user[0].experience">
+    <span> {{exp.company}} <img class="ellipse" src="../../../../assets/images/user-resume-icons/ellipse.png"
+        alt="ellipse séparant les textes"> {{exp.year}} years</span>
+    <p> {{exp.description}} </p>
+  </div>
+
+
+</div>

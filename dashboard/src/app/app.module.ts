@@ -16,6 +16,8 @@ import { UserLanguageComponent } from './core/components/user-language/user-lang
 import { UserQualificationsComponent } from './core/components/user-qualifications/user-qualifications.component';
 import { UserSpecialitiesComponent } from './core/components/user-specialities/user-specialities.component';
 import { UserSubInfosComponent } from './core/components/user-sub-infos/user-sub-infos.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserService } from './core/services/user.service';
 
 @NgModule({
   declarations: [
@@ -32,13 +34,15 @@ import { UserSubInfosComponent } from './core/components/user-sub-infos/user-sub
     UserLanguageComponent,
     UserQualificationsComponent,
     UserSpecialitiesComponent,
-    UserSubInfosComponent
+    UserSubInfosComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
