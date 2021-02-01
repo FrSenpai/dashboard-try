@@ -1,0 +1,8 @@
+<div id="ctnBox" *ngIf="userInfos$ | async as userInfo">
+    <div id="ctnUserAlertsApp">
+        <app-user-alerts [userInfos]="userInfo"></app-user-alerts>
+    </div>
+    <h2>Dashboard</h2>
+    <app-welcome-banner></app-welcome-banner>
+    <app-user-resume [userInfos]="userInfo"></app-user-resume>
+</div>

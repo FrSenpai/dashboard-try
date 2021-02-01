@@ -1,0 +1,44 @@
+{
+  "user": [{
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Smith",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,...more",
+    "experience": [{
+      "company": "Alleviate Yoga Studio",
+      "year": "2",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,...more"
+    }],
+    "pictures": [{
+      "url": "blabla.jpg"
+    }, {
+      "url": "blabla.jpg"
+    }, {
+      "url": "blabla.jpg"
+    }],
+    "languages": [{
+      "name": "English"
+    }, {
+      "name": "Spanish"
+    }],
+    "qualifications": [{
+      "name": "Level 3 Diploma Course"
+    }, {
+      "name": "Level 4 Diploma Course"
+    }],
+    "specialities": [{
+        "name": "Deep tissue massage"
+      }, {
+        "name": "Acupuncture"
+      },
+      {
+        "name": "Sports massage"
+      }
+    ],
+    "address": "Rue du ciment, Lausanne",
+    "insurance": [{
+        "provider":"ABC Insurance",
+        "policy_number": "B2C00 67 266700"
+    }]
+  }]
+}

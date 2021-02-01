@@ -1,0 +1,50 @@
+#ctnColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#ctnFirstVerticalBox {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 98px;
+}
+
+#ctnFirstBox {
+    background: #daf5f334;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+
+#ctnSecondVerticalBox {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 10px;
+    background: #daf5f334;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.titleSubInfos {
+    margin: 25px 11px 11px 22px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.dataSubInfos {
+    margin: 0;
+    text-align: center;
+}
+

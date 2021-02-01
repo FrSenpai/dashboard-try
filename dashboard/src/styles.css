@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100%;
+}
+
+p, li, span {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+
+/* User resume css */
+.ellipse {
+    margin: 5px 10px 5px 10px;
+}
+
+.ctnSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ctnSectionTitle h5 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.ctnSection p {
+    margin: 0 36px 0 22px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.ctnSection span {
+    margin: 0 36px 10px 22px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ctnSectionTitle h6 {
+    font-size: 20px;
+    margin: 0 0 0 5px;
+}
+
+.ctnSectionTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 22px;
+    margin-bottom: 11px;
+    margin-top: 30px;
+    margin: 30px 36px 11px 22px;
+}
+
+.ctnSection ul li {
+    opacity: 50%;
+    font-size: 18px;
+    font-weight: 400;
+}

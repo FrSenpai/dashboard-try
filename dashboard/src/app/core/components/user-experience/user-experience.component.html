@@ -1,0 +1,16 @@
+<div class="ctnSection">
+  <div class="ctnSectionTitle">
+    <h5>Experience</h5>
+    <div>
+      <img src="../../../../assets/images/user-resume-icons/add.png" alt="add experience">
+      <img src="../../../../assets/images/user-resume-icons/edit.png" alt="edit experience">
+    </div>
+  </div>
+  <div *ngFor="let exp of userInfos.user[0].experience">
+    <span> {{exp.company}} <img class="ellipse" src="../../../../assets/images/user-resume-icons/ellipse.png"
+        alt="ellipse séparant les textes"> {{exp.year}} years</span>
+    <p> {{exp.description}} </p>
+  </div>
+
+
+</div>

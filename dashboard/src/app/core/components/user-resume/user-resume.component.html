@@ -1,0 +1,24 @@
+<div>
+  <app-user-resume-header [userInfos]="userInfos"></app-user-resume-header>
+  <div id="ctnColumn">
+    <div id="ctnFirstVerticalBox">
+      <div id="ctnFirstBox">
+        <app-about-me [userInfos]="userInfos"></app-about-me>
+        <app-user-experience [userInfos]="userInfos"></app-user-experience>
+      </div>
+      <app-user-photos [userInfos]="userInfos"></app-user-photos>
+    </div>
+
+    <div id="ctnSecondVerticalBox">
+      <!-- I think we can optimize here, but I'll wait a bit in case of an error occurs -->
+      <app-user-language [userInfos]="userInfos"></app-user-language>
+      <app-user-qualifications [userInfos]="userInfos"></app-user-qualifications>
+      <app-user-specialities [userInfos]="userInfos"></app-user-specialities>
+      <app-user-sub-infos [userInfos]="userInfos"></app-user-sub-infos>
+    </div>
+  </div>
+
+
+
+
+</div>
