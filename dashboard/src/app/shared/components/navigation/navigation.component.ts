@@ -10,6 +10,7 @@ export class NavigationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(screen.width, screen.height)
   }
 
 }
