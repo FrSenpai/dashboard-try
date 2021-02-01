@@ -8,7 +8,7 @@ import { RootObject } from '../models/user';
 })
 export class UserService {
 
-  private configUrl: string = "https://run.mocky.io/v3/2c8d8315-2d2a-4986-bb24-62f4e1d853f4";
+  private configUrl: string = "https://run.mocky.io/v3/e7abc82b-a260-4ce9-be27-974bd2ef6481";
   constructor(private http: HttpClient) {
    }
 

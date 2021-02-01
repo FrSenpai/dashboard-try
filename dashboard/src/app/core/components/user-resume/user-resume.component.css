@@ -77,3 +77,15 @@ h5 {
     }
 
 }
+
+@media screen and (max-width:665px) {
+    #ctnSecondVerticalBox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ctnSecondVerticalBox app-user-language,app-user-qualifications,app-user-specialities{
+        width: 100%;
+    }
+}

@@ -11,3 +11,9 @@
     align-items: center;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width:820px) {
+    .userPhotos {
+        width: 30%;
+    }
+}

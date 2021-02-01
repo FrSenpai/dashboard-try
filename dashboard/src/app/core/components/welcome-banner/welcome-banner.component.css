@@ -58,3 +58,21 @@ button {
         text-align: center;
     }
 }
+
+@media screen and (max-width:390px) {
+    #ctnImgBanner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #ctnImgBanner img {
+        width: 80%;
+        margin: auto;
+    }
+
+    #ctnWelcomeText h3 {
+        width: auto;
+        text-align: center;
+    }
+}

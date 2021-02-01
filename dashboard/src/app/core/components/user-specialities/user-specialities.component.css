@@ -5,3 +5,19 @@
     width: fit-content;
     margin-bottom: 13px;
 }
+
+@media screen and (max-width:665px) {
+    .ctnSection ul {
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ctnSection ul li {
+        margin: 5px;
+    }
+
+
+}
