@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { RootObject } from 'src/app/core/models/user';
+import { User } from 'src/app/core/models/user';
 
 @Component({
   selector: 'app-user-resume',
@@ -7,7 +7,7 @@ import { RootObject } from 'src/app/core/models/user';
   styleUrls: ['./user-resume.component.css']
 })
 export class UserResumeComponent implements OnInit {
-  @Input() userInfos?:RootObject;
+  @Input() userInfos?:User;
   constructor() { }
 
   ngOnInit(): void {

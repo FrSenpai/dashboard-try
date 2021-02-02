@@ -14,7 +14,7 @@ export class NavigationComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(screen.width)
+    
   }
 
   public checkResolution():Boolean {
@@ -28,7 +28,6 @@ export class NavigationComponent implements OnInit {
 
 
   public onResize(event:any):void {
-    console.log(this.screenWidth)
     if (event.type === "resize") {
       this.screenWidth = event.target.innerWidth;
       this.screenHeight = event.target.innerHeight;
