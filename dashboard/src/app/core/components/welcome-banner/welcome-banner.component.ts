@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class WelcomeBannerComponent implements OnInit {
 
-  constructor(public route:Router) {
+  constructor() {
   }
 
   ngOnInit(): void {

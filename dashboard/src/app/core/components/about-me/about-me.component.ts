@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { RootObject } from 'src/app/core/models/user';
+import { User } from 'src/app/core/models/user';
 
 @Component({
   selector: 'app-about-me',
@@ -7,7 +7,7 @@ import { RootObject } from 'src/app/core/models/user';
   styleUrls: ['./about-me.component.css']
 })
 export class AboutMeComponent implements OnInit {
-  @Input() userInfos?:RootObject;
+  @Input() userInfos?:User;
   constructor() { }
 
   ngOnInit(): void {

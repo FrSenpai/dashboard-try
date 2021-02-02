@@ -7,6 +7,6 @@ import { UserService } from './core/services/user.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(public user: UserService) {}
+  constructor() {}
   title = 'Dashboard';
 }
