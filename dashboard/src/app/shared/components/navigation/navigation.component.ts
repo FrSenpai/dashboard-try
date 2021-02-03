@@ -18,12 +18,7 @@ export class NavigationComponent implements OnInit {
   }
 
   public checkResolution():Boolean {
-    if (this.screenWidth > 890) {
-      return true
-    } else {
-      return false;
-    }
-   
+    return (this.screenWidth > 890) 
   }
 
 
