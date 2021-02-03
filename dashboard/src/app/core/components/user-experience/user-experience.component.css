@@ -1,0 +1,17 @@
+@media screen and (max-width:450px) {
+    span {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+
+    .ellipse {
+        width: 5%;
+    }
+
+    .ctnSectionTitle {
+        
+    }
+}
